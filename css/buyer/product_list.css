@@ -1,0 +1,123 @@
+.productspotlight {
+    background-position: left top;
+    background-repeat: no-repeat;
+    /*box-shadow: 0 5px 5px -5px #eee*/
+}
+
+.productspotlight .ptext {
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    padding-bottom: 65px;
+    /* min-height: 380px */
+}
+.product-pic {
+    margin: 0;
+}
+.productspotlight .ptext .product-shop {
+    width: 100%;
+    float: none;
+    /* margin-top: 1rem; */
+    margin: .5rem 0 0 0;
+}
+
+.product-pic a {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.productspotlight .ptext .product-name {
+    width: 100%;
+    margin: 0 0 0px 0;
+    font-size: 1em;
+    line-height: 1em;
+    color: #310331;
+}
+
+.productspotlight .ptext .product-name p {
+    height: 3rem;
+    min-height: 3rem;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    width: 100%;
+}
+
+.product-reviews {
+    width: 100%;
+    margin: 0;
+}
+
+.productspotlight .ptext .price-box {
+    font-size: 0.85em;
+    line-height: 0.85em;
+    color: #a21aa2;
+    float: left;
+    padding: 0;
+}
+
+.productspotlight .ptext .price-box .old-price {
+    padding: 0;
+    font-size: .5em;
+    color: #888
+}
+
+.productspotlight .ptext .add-to-box {
+    margin: 0;
+    float: right;
+    padding: 0;
+}
+
+.product-reviews .stars {
+    align-items: center;
+    /* height: 3rem; */
+    padding: 0;
+    text-align: right;
+}
+
+.product-reviews .review-counts {
+    color: #0066c0;
+    font-size: 0.65rem;
+    /* height: 3rem; */
+}
+
+.buy-at-amazon button.btn {
+    /*background-color:#ffc405d1;*/
+    background: #efb764;
+    width: 100%;
+}
+
+.buy-at-amazon button.btn span {
+    color: #000;
+}
+
+.reviews-text {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    color: #fff;
+    width: 100%;
+    font-family: AvantGarde Md BT;
+    font-size: 21.32px;
+    line-height: 25.59px;
+    letter-spacing: 50;
+}
+
+.reviews-text .words {
+    margin: 2rem 10rem 6rem 10rem;
+}
+
+.reviews-text .name {
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    /* padding: 3px 20px; */
+    width: 166px;
+    height: 45px;
+    line-height: 45px;
+}
