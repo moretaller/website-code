@@ -1,0 +1,295 @@
+body {
+  background-color: #000;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.banner-inner .carousel-item>a {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item:nth-of-type(1)>a {
+  background-image: url(../../images/buyer/home/1920x700-01.jpg);
+}
+
+.carousel-item:nth-of-type(2)>a {
+  background-image: url(../../images/buyer/home/1920x700-02.jpg);
+}
+
+.carousel-item:nth-of-type(3)>a {
+  background-image: url(../../images/buyer/home/1920x700-03.jpg);
+}
+
+.carousel-item:nth-of-type(4)>a {
+  background-image: url(../../images/buyer/home/1920x700-04.jpg);
+}
+
+@media (max-width: 350px) {
+  .carousel-item>a {
+    height: 8rem;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 576px) {
+  .carousel-item>a {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .carousel-item>a {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .carousel-item>a {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .carousel-item>a {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .carousel-item>a {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 1601px) {
+  .carousel-item>a {
+    height: 40rem;
+  }
+}
+
+.slide-button {
+  opacity: 0;
+}
+
+.slide-button:visited {
+  opacity: 0;
+}
+
+#carouselExampleIndicators:hover .slide-button {
+  opacity: .5;
+}
+
+#carouselExampleIndicators:hover .slide-button {
+  opacity: .5;
+}
+
+@media (max-width: 991px){
+  .navbar .navbar-brand-wrapper .brand-logo-mini {
+    padding-top: 0;
+  }
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link p {
+    font-size: .5rem;
+  }
+}
+
+.intro {
+  margin: 15px 0;
+  background-color: rgb(10, 9, 9);
+  align-items: center;
+}
+
+.intro>div:nth-of-type(1) {
+  /* background-color: rgb(10, 9, 9); */
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .intro>div:nth-of-type(1) {
+    padding: 10% 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .intro>div:nth-of-type(1) {
+    padding: 0;
+  }
+}
+
+.intro>div:nth-of-type(1)>header {
+  font-family: 'Oswald';
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
+.intro>div:nth-of-type(1)>p {
+  font-family: "Encode Sans";
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
+.intro>div:nth-of-type(2) {
+  padding: 0;
+}
+
+.intro>div:nth-of-type(2)>a {
+  display: flex;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../images/buyer/home/intro.jpg);
+}
+
+@media (max-width: 320px) {
+  .intro>div:nth-of-type(2)>a {
+    height: 9rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+  .intro>div:nth-of-type(2)>a {
+    height: 12rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .intro>div:nth-of-type(2)>a {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .intro>div:nth-of-type(2)>a {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .intro>div:nth-of-type(2)>a {
+    height: 15rem;
+  }
+}
+
+.list>div>a {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;height: 16rem;
+}
+
+@media (max-width: 320px) {
+  .list>div>a {
+    height: 21rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 475px) {
+  .list>div>a {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 576px) {
+  .list>div>a {
+    height: 40rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .list>div>a {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .list>div>a {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list>div>a {
+    height: 32rem;
+  }
+}
+
+.list>div:nth-of-type(1)>a {
+  background-image: url(../../images/buyer/home/5.jpg);
+}
+
+.list>div:nth-of-type(2)>a {
+  background-image: url(../../images/buyer/home/6.jpg);
+}
+
+.list>div:nth-of-type(3)>a {
+  background-image: url(../../images/buyer/home/7.jpg);
+}
+
+.list2>div>a {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;height: 16rem;
+}
+
+@media (max-width: 320px) {
+  .list2>div>a {
+    height: 21rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 475px) {
+  .list2>div>a {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 576px) {
+  .list2>div>a {
+    height: 40rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .list2>div>a {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .list2>div>a {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list2>div>a {
+    height: 32rem;
+  }
+}
+
+.list2>div:nth-of-type(1)>a {
+  background-image: url(../../images/buyer/home/8.jpg);
+}
+
+.list2>div:nth-of-type(2)>a {
+  background-image: url(../../images/buyer/home/9.jpg);
+}
+
+.list2>div:nth-of-type(3)>a {
+  background-image: url(../../images/buyer/home/10.jpg);
+}
