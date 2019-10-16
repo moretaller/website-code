@@ -1,0 +1,459 @@
+<html lang="en"><head>
+    <title>Products</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="node_modules/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="node_modules/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/buyer/style.css">
+    <!-- endinject -->
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<!-- plugin css for this page -->
+<link rel="stylesheet" href="node_modules/lightslider/dist/css/lightslider.min.css">
+<link rel="stylesheet" href="node_modules/lightgallery/dist/css/lightgallery.min.css">
+<!-- End plugin css for this page -->
+<link rel="stylesheet" href="css/buyer/product_list.css">
+</head>
+<body class="sidebar-absolute sidebar-hidden">
+<div class="container-scroller" style="padding-bottom:58px">
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper">
+            <a class="navbar-brand brand-logo" href="/">
+                <img src="images/buyer/logo.png" alt="logo">
+            </a>
+            <a class="navbar-brand brand-logo-mini" href="/">
+                <img src="images/buyer/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">
+                        <p class="mb-0">HOME</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="products.html">
+                        <p class="mb-0">PRODUCTS</p>
+                    </a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="/warranty">
+                        <p class="mb-0">WARRANTY</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/product/guide">
+                        <p class="mb-0">DOWNLOADS</p>
+                    </a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <p class="mb-0">CONTACT</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container page-body-wrapper">
+    <div class="row">
+        <!--<form class="mt-2 mt-md-0 d-none d-lg-block search-input" th:href="@{/product}" >-->
+            <!--<div class="input-group">-->
+                <!--<span class="input-group-addon d-flex align-items-center"><i class="icon-magnifier icons"></i></span>-->
+                <!--<input type="text" class="form-control" id="title" name="title" placeholder="title" th:value="${productItem?.title}">-->
+            <!--</div>-->
+
+            <!--<button type="submit" class="btn btn-success mb-2">查询</button>-->
+
+        <!--</form>-->
+
+        <div class="col-md-4 productspotlight">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row product-pic">
+                            <a href="/product/1000" style="background-image:url(http://boltune.net/712466b1-2742-4374-9f02-230cf835451f/product.jpg);">
+                                <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            </a>
+                            <!--<a th:href="@{'/product/'+${product?.id}}">-->
+                            <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            <!--</a>-->
+                        </div>
+                        <div class="ptext">
+                            <div class="row product-name">
+                                <p>True Wireless Earbuds, Boltune Bluetooth 5.0 in-Ear Stereo Headphones with Charging Case (Built-in Mic, Easy-Pair, 3D Stereo,IPX6 Waterproof, Total 30Hours Playtime)</p>
+                            </div>
+                            <div class="row align-items-center product-reviews">
+                                <div class="col-sm-6 price-box">
+                                    <span class="regular-price" id="product-price-97">
+                                        <span class="price">$44.99</span>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6 stars">
+                                    <img src="images/buyer/rating5.png">
+                                </div>
+                                <!--<div class="col-sm-8 review-counts">-->
+                                <!--657 customer reviews-->
+                                <!--</div>-->
+                            </div>
+                            <div class="row align-items-center product-shop">
+                                <div class="col-sm-12 add-to-box ">
+                                    <div class="buy-at-amazon ">
+                                        <a href="/product/1000" target="_blank ">
+                                            <button type="button" title="Buy at Amazon" class="btn btn-warning btn-fw">
+                                                <span><span>Detail</span></span></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-4 productspotlight">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row product-pic">
+                            <a href="/product/1001" style="background-image:url(http://boltune.net/48d731fb-56f8-49ca-929f-947ebfe6a424/1.jpg);">
+                                <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            </a>
+                            <!--<a th:href="@{'/product/'+${product?.id}}">-->
+                            <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            <!--</a>-->
+                        </div>
+                        <div class="ptext">
+                            <div class="row product-name">
+                                <p>Active Noise Cancelling Headphones, Boltune Bluetooth 5.0 Over Ear Wireless Headphones with Mic Deep Bass, Comfortable Protein Earpads 30H Playtime for Travel Work TV PC Cellphone</p>
+                            </div>
+                            <div class="row align-items-center product-reviews">
+                                <div class="col-sm-6 price-box">
+                                    <span class="regular-price" id="product-price-97">
+                                        <span class="price">$59.99</span>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6 stars">
+                                    <img src="images/buyer/rating5.png">
+                                </div>
+                                <!--<div class="col-sm-8 review-counts">-->
+                                <!--657 customer reviews-->
+                                <!--</div>-->
+                            </div>
+                            <div class="row align-items-center product-shop">
+                                <div class="col-sm-12 add-to-box ">
+                                    <div class="buy-at-amazon ">
+                                        <a href="/product/1001" target="_blank ">
+                                            <button type="button" title="Buy at Amazon" class="btn btn-warning btn-fw">
+                                                <span><span>Detail</span></span></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-4 productspotlight">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row product-pic">
+                            <a href="/product/1002" style="background-image:url(http://boltune.net/a3ae948d-5a84-49f6-a5b6-278561eb2c45/1_3.jpg);">
+                                <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            </a>
+                            <!--<a th:href="@{'/product/'+${product?.id}}">-->
+                            <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            <!--</a>-->
+                        </div>
+                        <div class="ptext">
+                            <div class="row product-name">
+                                <p>Wireless Headphones, Boltune Bluetooth 5.0 IPX7 Waterproof 16 Hours Playtime Bluetooth Headphones, with Magnetic Connection, Sports Earphones for Running Built-in Mic</p>
+                            </div>
+                            <div class="row align-items-center product-reviews">
+                                <div class="col-sm-6 price-box">
+                                    <span class="regular-price" id="product-price-97">
+                                        <span class="price">$29.99</span>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6 stars">
+                                    <img src="images/buyer/rating5.png">
+                                </div>
+                                <!--<div class="col-sm-8 review-counts">-->
+                                <!--657 customer reviews-->
+                                <!--</div>-->
+                            </div>
+                            <div class="row align-items-center product-shop">
+                                <div class="col-sm-12 add-to-box ">
+                                    <div class="buy-at-amazon ">
+                                        <a href="/product/1002" target="_blank ">
+                                            <button type="button" title="Buy at Amazon" class="btn btn-warning btn-fw">
+                                                <span><span>Detail</span></span></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-4 productspotlight">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row product-pic">
+                            <a href="/product/1004" style="background-image:url(http://boltune.net/c8220276-1c0c-4906-b97d-5d66e1f7939d/1.png);">
+                                <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            </a>
+                            <!--<a th:href="@{'/product/'+${product?.id}}">-->
+                            <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            <!--</a>-->
+                        </div>
+                        <div class="ptext">
+                            <div class="row product-name">
+                                <p>Boltune aptX Low Latency Bluetooth V5.0 Transmitter Receiver, Support Optical Digital Toslink, 20H Playtime, aptX-HD, for 3.5mm Aux, RCA, Wireless Audio Adapter for TV, Home Stereo</p>
+                            </div>
+                            <div class="row align-items-center product-reviews">
+                                <div class="col-sm-6 price-box">
+                                    <span class="regular-price" id="product-price-97">
+                                        <span class="price">$39.99</span>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6 stars">
+                                    <img src="images/buyer/rating5.png">
+                                </div>
+                                <!--<div class="col-sm-8 review-counts">-->
+                                <!--657 customer reviews-->
+                                <!--</div>-->
+                            </div>
+                            <div class="row align-items-center product-shop">
+                                <div class="col-sm-12 add-to-box ">
+                                    <div class="buy-at-amazon ">
+                                        <a href="/product/1004" target="_blank ">
+                                            <button type="button" title="Buy at Amazon" class="btn btn-warning btn-fw">
+                                                <span><span>Detail</span></span></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-4 productspotlight">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row product-pic">
+                            <a href="/product/1005" style="background-image:url(http://boltune.net/82ca349b-28df-4c1b-b975-33f993896591/1.jpg);">
+                                <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            </a>
+                            <!--<a th:href="@{'/product/'+${product?.id}}">-->
+                            <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            <!--</a>-->
+                        </div>
+                        <div class="ptext">
+                            <div class="row product-name">
+                                <p>Bluetooth V5.0 aux Adapter, Boltune Audio Receiver Car Kit, for Home Hi-fi System, Portable Wireless Audio Adapter 3.5mm Aux for Music, Speaker, Headphones, Hands-Free Car Kit with Microphone</p>
+                            </div>
+                            <div class="row align-items-center product-reviews">
+                                <div class="col-sm-6 price-box">
+                                    <span class="regular-price" id="product-price-97">
+                                        <span class="price">$19.99</span>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6 stars">
+                                    <img src="images/buyer/rating5.png">
+                                </div>
+                                <!--<div class="col-sm-8 review-counts">-->
+                                <!--657 customer reviews-->
+                                <!--</div>-->
+                            </div>
+                            <div class="row align-items-center product-shop">
+                                <div class="col-sm-12 add-to-box ">
+                                    <div class="buy-at-amazon ">
+                                        <a href="/product/1005" target="_blank ">
+                                            <button type="button" title="Buy at Amazon" class="btn btn-warning btn-fw">
+                                                <span><span>Detail</span></span></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-4 productspotlight">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row product-pic">
+                            <a href="/product/1006" style="background-image:url(http://boltune.net/9e865613-01f9-4263-b4dc-797410ff4eb3/1.jpg);">
+                                <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            </a>
+                            <!--<a th:href="@{'/product/'+${product?.id}}">-->
+                            <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            <!--</a>-->
+                        </div>
+                        <div class="ptext">
+                            <div class="row product-name">
+                                <p>Bluetooth Transmitter Receiver, Boltune Bluetooth 5.0 aptX HD Low Latency Long Range Wireless Audio Adapter for TV, Home Stereo, Optical AUX RCA, Dual Link, Extender, Pairs Two Headphones</p>
+                            </div>
+                            <div class="row align-items-center product-reviews">
+                                <div class="col-sm-6 price-box">
+                                    <span class="regular-price" id="product-price-97">
+                                        <span class="price">$49.99</span>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6 stars">
+                                    <img src="images/buyer/rating5.png">
+                                </div>
+                                <!--<div class="col-sm-8 review-counts">-->
+                                <!--657 customer reviews-->
+                                <!--</div>-->
+                            </div>
+                            <div class="row align-items-center product-shop">
+                                <div class="col-sm-12 add-to-box ">
+                                    <div class="buy-at-amazon ">
+                                        <a href="/product/1006" target="_blank ">
+                                            <button type="button" title="Buy at Amazon" class="btn btn-warning btn-fw">
+                                                <span><span>Detail</span></span></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-4 productspotlight">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="row product-pic">
+                            <a href="/product/1009" style="background-image:url(http://boltune.net/9e865613-01f9-4263-b4dc-797410ff4eb3/1.jpg);">
+                                <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            </a>
+                            <!--<a th:href="@{'/product/'+${product?.id}}">-->
+                            <!--<img th:src="@{${product?.image}}" width="100% "/>-->
+                            <!--</a>-->
+                        </div>
+                        <div class="ptext">
+                            <div class="row product-name">
+                                <p>Boltune Wireless Headphones, Bluetooth V5.0 IPX7 Waterproof 16 Hours Playtime Bluetooth Headphones, with Magnetic Connection, Sports Earbuds for Running Built-in Mic</p>
+                            </div>
+                            <div class="row align-items-center product-reviews">
+                                <div class="col-sm-6 price-box">
+                                    <span class="regular-price" id="product-price-97">
+                                        <span class="price">$28.99</span>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6 stars">
+                                    <img src="images/buyer/rating5.png">
+                                </div>
+                                <!--<div class="col-sm-8 review-counts">-->
+                                <!--657 customer reviews-->
+                                <!--</div>-->
+                            </div>
+                            <div class="row align-items-center product-shop">
+                                <div class="col-sm-12 add-to-box ">
+                                    <div class="buy-at-amazon ">
+                                        <a href="/product/1009" target="_blank ">
+                                            <button type="button" title="Buy at Amazon" class="btn btn-warning btn-fw">
+                                                <span><span>Detail</span></span></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--<div>-->
+            <!--<nav>-->
+                <!--<ul class="pagination flat pagination-secondary">-->
+                    <!--<li class="page-item" >-->
+                        <!--<a class="page-link" th:href="@{/product?pageIndex=1}">-->
+                            <!--<i class="mdi mdi-chevron-left"></i>-->
+                        <!--</a>-->
+                    <!--</li>-->
+                    <!--<th:block th:each="nav:${#numbers.sequence(1,pageResult.pageCount)}">-->
+                        <!--<li class="page-item " th:if="${nav==pageResult.pageIndex}?'active':''">-->
+                            <!--<a class="page-link" th:href="@{'/product?pageIndex='+${nav}}" th:text="${nav}"></a>-->
+                        <!--</li>-->
+                    <!--</th:block>-->
+
+                    <!--<li class="page-item">-->
+                        <!--<a class="page-link" th:href="@{'/product?pageIndex='+${pageResult.pageCount}}">-->
+                            <!--<i class="mdi mdi-chevron-right">-->
+                            <!--</i>-->
+                        <!--</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</nav>-->
+        <!--</div>-->
+    </div>
+</div>
+</div>
+
+    <footer>
+        <div>Copyright 2012 - 2019 | All Rights Reserved | Powered by XXX</div>
+        <a href="#">Contact Us: XXXX</a>
+    </footer>
+
+<!-- container-scroller -->
+<!-- plugins:js -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page-->
+<!-- End plugin js for this page-->
+<!-- inject:js -->
+<script src="js/off-canvas.js"></script>
+<script src="js/hoverable-collapse.js"></script>
+<script src="js/misc.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+    <div></div>
+<!-- End custom js for this page-->
+
+
+</body></html>
